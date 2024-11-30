@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px 8px;
+}
+
+td input,
+td select {
+    width: 95%;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+fieldset:nth-of-type(1) {
+    background-color: #e6f0fa;
+}
+
+fieldset:nth-of-type(2) {
+    background-color: #cde0f5;
+}
+
+fieldset:nth-of-type(3) {
+    background-color: #a9c9e8;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+::file-selector-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+fieldset table td {
+    padding: 5px 10px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+}
