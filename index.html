@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <h1>Inscripción Grado Superior</h1>
     <form>
         <fieldset>
             <legend>Datos Personaes</legend>
@@ -111,22 +112,22 @@
 
         <fieldset>
             <legend>Forma de Acceso</legend>
-            <label>
+            <label class="forma_acceso">
                 <input type="radio" name="forma_acceso" value="opcion1" required>Bachillerato Modalidad:
                 <input type="text" name="modalidad_bachillerato">
             </label><br>
 
-            <label>
+            <label class="forma_acceso">
                 <input type="radio" name="forma_acceso" value="opcion2" required>COU Opción:
                 <input type="text" name="opcion_cou">
             </label><br>
 
-            <label>
+            <label class="forma_acceso">
                 <input type="radio" name="forma_acceso" value="opcion3" required>FP Grado Medio Ciclo:
                 <input type="text" name="ciclo_grado_medio">
             </label><br>
 
-            <label>
+            <label class="forma_acceso">
                 <input type="radio" name="forma_acceso" value="opcion4" required>FP Grado Superior Ciclo:
                 <input type="text" name="ciclo_grado_superior">
             </label><br>
@@ -139,15 +140,15 @@
 
         <fieldset>
             <legend>Documentos Adjuntos</legend>
-            <label>
+            <label class="adjuntos">
                 <input type="checkbox" required>Fotocopia DNI
             </label>
-            <label>
+            <label class="adjuntos">
                 <input type="checkbox" required>Certificado Académico - Selecciona documento:
                 <input type="file" name="otro_doc_adjunto" id="otro_doc_adjunto" accept=".pdf,.doc,.docx,.jpg,.png"
                     required>
             </label>
-            <label>
+            <label class="adjuntos">
                 <input type="checkbox">Otros documentos (especificar)
                 <input type="text" name="otro_doc_adjunto" id="otro_doc_adjunto">
                 <input type="file" name="otro_doc_adjunto_mult" id="otro_doc_adjunto_mult"

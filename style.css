@@ -9,9 +9,9 @@ body {
 
 table {
     border-collapse: collapse;
-    width: 100%;
 }
 
+h1,
 th,
 td {
     padding: 8px 8px;
@@ -26,9 +26,13 @@ input[type="radio"] {
     margin-right: 10px;
 }
 
-label {
+.forma_acceso {
     display: block;
-    margin-bottom: 10px;
+}
+
+.adjuntos {
+    display: block;
+    margin-bottom: 8px;
 }
 
 fieldset {
@@ -50,6 +54,8 @@ fieldset:nth-of-type(3) {
 }
 
 button[type="submit"] {
+    display: block;
+    margin: 20px auto;
     background-color: #333;
     color: #fff;
     border: none;
@@ -80,9 +86,4 @@ fieldset table td {
 
 td {
     vertical-align: middle;
-}
-
-button[type="submit"] {
-    display: block;
-    margin: 20px auto;
 }
